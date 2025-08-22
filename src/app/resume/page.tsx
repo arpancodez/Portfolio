@@ -85,7 +85,7 @@ export default function ResumePage() {
               </span>
               <span className="flex items-center gap-1">
                 <Linkedin className="w-4 h-4 text-gray-400" />
-                in/okgaurav
+                in/Xinacy
               </span>
               <span className="flex items-center gap-1">
                 <Globe className="w-4 h-4 text-gray-400" />

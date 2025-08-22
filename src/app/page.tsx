@@ -274,7 +274,7 @@ function ProfileCardContent() {
         </Button>
         <Button variant="outline" className="size-10" asChild>
           <Link
-            href="https://linkedin.com/in/okgaurav"
+            href="https://linkedin.com/in/Xinacy"
             target="_blank"
             rel="noopener noreferrer"
           >
