@@ -98,7 +98,7 @@ export default function ResumePage() {
             <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-600 pb-1 text-white">
               SUMMARY
             </h2>
-            <p className="text-justify leading-relaxed text-gray-300">
+            <p className="leading-relaxed text-gray-300">
               Experienced software developer proficient in Python, JavaScript,
               TypeScript, and React, with a strong foundation in DevOps. Skilled
               in building scalable web and real-time applications, with
