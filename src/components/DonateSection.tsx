@@ -30,7 +30,6 @@ export default function DonateSection() {
           <Link
             href="https://donate.stripe.com/4gM14p365ckW2rp1bY0Ba0a"
             target="_blank"
-            rel="noopener noreferrer"
             className="flex items-center gap-2"
           >
             <StripeIcon className="size-4" />
@@ -46,7 +45,6 @@ export default function DonateSection() {
           <Link
             href="https://pay.oxapay.com/10489526"
             target="_blank"
-            rel="noopener noreferrer"
             className="flex items-center gap-2"
           >
             <EthereumIcon className="size-4" />
@@ -57,7 +55,7 @@ export default function DonateSection() {
         <UPIBadge />
       </div>
       <span className="text-xs text-[10px] text-gray-400 text-center mt-4">
-        i have a german shepard, so i need to feed her
+        i have a german shepherd, so i need to feed her 🐕
       </span>
     </div>
   );

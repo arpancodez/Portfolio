@@ -64,7 +64,7 @@ export default function ResumePage() {
               className="bg-transparent border-gray-600/50"
               asChild
             >
-              <Link href={resumeUrl} target="_blank" rel="noopener noreferrer">
+              <Link href={resumeUrl} target="_blank">
                 <ExternalLink className="size-4" />
                 Open in new tab
               </Link>

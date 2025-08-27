@@ -91,6 +91,7 @@ export default function Home() {
                             <AvatarImage
                               alt={item.company}
                               src={`https://cdn.xinacy.com/${item.logo}`}
+                              loading="eager"
                             />
                           </Avatar>
                           <div>
@@ -237,6 +238,7 @@ function ProfileCardContent() {
           height={500}
           width={500}
           className="rounded-2xl w-full aspect-square object-cover object-center border-[0.5px]"
+          priority
         />
       </div>
 
