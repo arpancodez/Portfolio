@@ -1,7 +1,6 @@
 import React from "react";
 import { CometCard } from "@/components/ui/comet-card";
 import { Card, CardContent } from "@/components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Image from "next/image";
 import {
   Instagram,
@@ -17,7 +16,6 @@ import Link from "next/link";
 import GitHubCalendar from "react-github-calendar";
 import { GlowingEffect } from "@/components/ui/glowing-effect";
 import work from "@/lib/work";
-import DonateSection from "@/components/DonateSection";
 
 export default function Home() {
   return (
@@ -84,16 +82,14 @@ export default function Home() {
                     <CardContent>
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-3">
-                          <Avatar className="size-10">
-                            <AvatarFallback className="bg-black text-white">
-                              {item.company.charAt(0).toUpperCase()}
-                            </AvatarFallback>
-                            <AvatarImage
-                              alt={item.company}
-                              src={`https://cdn.xinacy.com/${item.logo}`}
-                              loading="eager"
-                            />
-                          </Avatar>
+                          <Image
+                            alt={item.company}
+                            src={`https://cdn.xinacy.com/${item.logo}`}
+                            width={40}
+                            height={40}
+                            className="size-10 rounded-full object-cover"
+                            priority
+                          />
                           <div>
                             <h3 className="text-white text-lg font-bold">
                               {item.company}
@@ -186,8 +182,6 @@ export default function Home() {
                 </div>
               </CometCard>
             </div>
-
-            <DonateSection />
 
             <footer className="mt-16 border-t border-gray-800 pt-8">
               <div className="text-center">

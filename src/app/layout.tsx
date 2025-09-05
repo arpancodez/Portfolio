@@ -9,6 +9,7 @@ import React from "react";
 import { Home as HomeIcon, Briefcase, FileText, Mail } from "lucide-react";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import FloatingDonateButton from "@/components/FloatingDonateButton";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -92,6 +93,7 @@ export default async function RootLayout({
           </div>
           <SpeedInsights />
           <Analytics />
+          <FloatingDonateButton />
         </JotaiProvider>
       </body>
     </html>
