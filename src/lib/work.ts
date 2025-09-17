@@ -70,7 +70,7 @@ const work = [
       "Horizontally scaled the bot up to 200k servers using PM2",
     ],
     status: "acquired",
-    note: "Acquired by Green Bot Development in March 2023",
+    note: "Acquired by Green-Bot Development in March 2023",
   },
 ];
 
