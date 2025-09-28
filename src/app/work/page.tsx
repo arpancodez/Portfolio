@@ -11,7 +11,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL("https://xinacy.com/"),
   title: "Work Experience | Gaurav",
-  description: "i worked at some cool places i believe so",
+  description: "i worked at some cool places i believe so yes i believe so",
   icons: {
     icon: ["/favicon.ico"],
     apple: ["/apple-touch-icon.png"],
