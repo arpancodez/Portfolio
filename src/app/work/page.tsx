@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "Work Experience | Gaurav",
+    title: "Work Experience | Arpan",
     description: "i worked at some cool places i believe so",
     creator: "@Xinacy",
   },
